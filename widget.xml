@@ -96,14 +96,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <body>
 
   <!-- container for actual page content -->
-  <div class="container" id="main-content">
+  <div class="container text-center" id="main-content">
 
-    <button id='ShowButton' class="btn btn-default">ShowButton</button>
-    <button id='DeleteButton' class="btn btn-default">DeleteButton</button>
-    <input id='AddButton'></input>
-    <input id='inputData'></input>
-    <input id='messageStatus'></input>
     <textarea id='dataList' class="form-control" rows="5"></textarea>
+    <br>
+    <br>
+    <button id='ShowButton' class="btn btn-default">Show</button>
+    <br>
+    <br>
+    <input type="text" class="form-control" id="inputData" placeholder="Input Data">
+    <div class="btn-group" role="group" aria-label="...">
+      <button id='DeleteButton' class="btn btn-default">Delete</button>
+      <button id='AddButton' class="btn btn-default">Add</button>
+    </div>
+    <br>
+    <br>
+    <input type="text" class="form-control" id="messageStatus" placeholder="Status..." readonly>
 
   </div>
 
