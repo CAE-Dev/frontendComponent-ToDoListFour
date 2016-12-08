@@ -47,7 +47,7 @@ Y({
   },
   connector: {
     name: 'websockets-client',
-    room: 'cae-room'
+    room: 'todolistfour'
   },
   sourceDir: "http://y-js.org/bower_components",
   share: {
